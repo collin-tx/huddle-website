@@ -1,33 +1,66 @@
-/* Base Styles -------------------- */
-
-* {
-    display: flexbox;
-}
-
-.header-btn {
-    position: fixed;
-    right: 0px;
-    padding: 2em;
-}
-
-div-1 {
-    display: inline;
-    float: left;
-}
-
-header {
-    background-image: url(images/bg-hero-desktop.svg);
-    background-repeat: no-repeat;
-    z-index: -1;
-    height: 50%;
-}
-
-
-/* -------------Media Queries ------------------------*/
-
-@media (max-width: 1440px) {
-    @media (max-width: 375px) {}
+    /* Base Styles -------------------- */
+    
+    header {
+        background-image: url(images/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        height: 100px;
+    }
+    
+    .logo {
+        display: block;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        height: 35px;
+    }
+    
+    .header-btn {
+        position: fixed;
+        right: 5px;
+        top: 5px;
+        padding: 2em;
+    }
+    
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .btn2 {
+        width: fit-content;
+    }
+    
+    .hero1 {
+        display: flex;
+        height: 50px;
+        width: 25px;
+    }
+    
+    .div2 {
+        display: flex;
+        flex-flow: column wrap;
+        margin-left: 50px;
+    }
+    
+    .div2 h3 {}
+    
+    .div2 p {
+        width: 70%;
+    }
+    
+    .div2 img {}
+    
+    .div3 {
+        text-align: right;
+        margin-right: 50px;
+    }
+    /* -------------Media Queries ------------------------*/
+    
+    @media (max-width: 1440px) {
+        @media (max-width: 375px) {}
+        ;
+    }
+    
     ;
-}
-
-;
