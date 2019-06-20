@@ -59,11 +59,23 @@
         width: 70%;
     }
     
-    .div2 img {}
+    .div2 img {
+        height: 400px;
+        width: 550px;
+    }
     
     .div3 {
         text-align: right;
         margin-right: 50px;
+    }
+    
+    footer {
+        background-color: #f9f9f9;
+        padding: 5em;
+    }
+    
+    nav {
+        text-align: center;
     }
     /* -------------Media Queries ------------------------*/
     
