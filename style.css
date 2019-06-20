@@ -1,8 +1,13 @@
     /* Base Styles -------------------- */
     
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
     header {
         background-image: url(images/bg-hero-desktop.svg);
         background-repeat: no-repeat;
+        background-size: 300px;
         height: 100px;
     }
     
@@ -26,10 +31,12 @@
         flex-direction: column;
         align-content: center;
         align-items: center;
+        margin-bottom: 200px;
     }
     
     .btn2 {
         width: fit-content;
+        padding: 1em;
     }
     
     .hero1 {
@@ -42,6 +49,8 @@
         display: flex;
         flex-flow: column wrap;
         margin-left: 50px;
+        margin-top: 200px;
+        margin-bottom: 200px;
     }
     
     .div2 h3 {}
@@ -62,5 +71,3 @@
         @media (max-width: 375px) {}
         ;
     }
-    
-    ;
