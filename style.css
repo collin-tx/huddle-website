@@ -1,8 +1,9 @@
-    /* Base Styles -------------------- */
+/* Base Styles -------------------- */
     
     body {
         font-size: 18px;
         font-family: 'Poppins', sans-serif;
+        color: darkblue;
     }
     
     header {
@@ -11,6 +12,7 @@
         background-size: 300px;
         background-position: center;
         height: 100px;
+        width: 100vw;
     }
     
     .logo {
@@ -66,7 +68,6 @@
     .div2 img {
         height: 400px;
         width: 550px;
-        float: right;
     }
     
     .div3 {
@@ -76,14 +77,15 @@
     
     .div3 p {
         max-width: 700px;
-        text-align: right;
-        align-content: right;
-        float: right;
     }
     
     .flow {
         height: 400px;
         width: 550px;
+    }
+    
+    .div4 h3 {
+        padding-bottom: 10px;
     }
     
     .div4 p {
@@ -107,9 +109,37 @@
     nav {
         text-align: center;
     }
+    
+    nav a {
+        padding: 10px;
+        color: salmon;
+    }
     /* -------------Media Queries ------------------------*/
     
-    @media (max-width: 1440px) {
-        @media (max-width: 375px) {}
-        ;
+    @media (min-width: 700px) {
+        body {
+            display: block;
+            text-align: center;
+            align-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
     }
+    
+    .btn {
+        margin: 45px;
+    }
+}
+.div3 {
+    text-align: center;
+}
+.div3 p {
+    text-align: center;
+    display: block;
+    align-content: center;
+}
+@media (max-width: 1440px) {
+    @media (max-width: 375px) {}
+    
+    ;
+}
