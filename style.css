@@ -1,7 +1,8 @@
     /* Base Styles -------------------- */
     
-    * {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    body {
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
     }
     
     header {
@@ -20,6 +21,10 @@
         height: 35px;
     }
     
+    button {
+        border-radius: 10%;
+    }
+    
     .header-btn {
         position: fixed;
         right: 5px;
@@ -32,12 +37,18 @@
         flex-direction: column;
         align-content: center;
         align-items: center;
-        margin-bottom: 200px;
     }
     
-    .btn2 {
+    .div1 p {
+        max-width: 700px;
+    }
+    
+    .btn {
+        font-size: 14px;
+        color: white;
+        background: salmon;
         width: fit-content;
-        padding: 1em;
+        padding: 10px 5px;
     }
     
     .hero1 {
@@ -57,7 +68,7 @@
     .div2 h3 {}
     
     .div2 p {
-        width: 70%;
+        max-width: 700px;
     }
     
     .div2 img {
@@ -68,6 +79,21 @@
     .div3 {
         text-align: right;
         margin-right: 50px;
+    }
+    
+    .div3 p {
+        max-width: 700px;
+        text-align: right;
+        align-content: right;
+        float: right;
+    }
+    
+    .div4 p {
+        max-width: 700px;
+    }
+    
+    .div5 {
+        text-align: center;
     }
     
     footer {
